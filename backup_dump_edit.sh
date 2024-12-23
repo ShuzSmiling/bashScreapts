@@ -1,8 +1,8 @@
 #!/bin/bash
 
 declare -r BACKUP_DIR="/var/lib/mysql_backups"
-declare -r MYSQL_USER="backup_user"
-declare -r MYSQL_PASS='p@$sw0rd'
+declare -r MYSQL_USER="****" # User
+declare -r MYSQL_PASS='****' # pass
 declare -r TIMESTAMP=$(date +%Y%m%d_%H%M)
 
 
